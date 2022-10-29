@@ -12,7 +12,7 @@ public class Example08 {
     @Test
     public void test01() {
 
-//2. 'http://automationexercise.com' url'sine gidin
+//2. 'http://automationexercise.com' url'sine gidiniz
 
         Driver.getDriver().get(ConfigReader.getProperty("automationExerciseUrl"));
 
