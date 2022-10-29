@@ -1,0 +1,34 @@
+
+   isimlendirme yaparken dikkat edeceğimiz noktalar:
+        Link :  Tıklandığında başka bir sayfa ya da pencere açılan Web elementleri
+        Text :  Sadece bir yazı içeren Web elementleri
+        Box  :  İçine veri yazılabilen Web elementleri
+        Button: Tıklanılabilen Web elementleri
+        RadioButton: Onaylanılabilen (tick atılabilen) Web elementleri
+
+
+    Kısaltmalar
+        registiration : reg
+
+
+    Örnek Web Elementi İsimlendirmeleri
+        public WebElement ilkSayfaSignInLink;
+        public WebElement signUpLink;
+        public WebElement signUpUsernameText;
+        public WebElement signUpUsernameBox;
+        public WebElement signUpMailText;
+        public WebElement signUpMailBox;
+        public WebElement ilkSayfaRegisterLink;
+        public WebElement becomeAVendorLink;
+        public WebElement vendorRegText;
+        public WebElement vendorRegEmailText;
+        public WebElement vendorRegEmailUyariText;
+        public WebElement vendorRegEmailBox;
+        public WebElement vendorRegCodeBox;
+        public WebElement vendorRegPasswordText;
+        public WebElement vendorRegPasswordUyariText;
+        public WebElement vendorRegPasswordBox;
+        public WebElement vendorRegConfirmPasswordText;
+        public WebElement vendorRegConfirmPasswordUyariText;
+        public WebElement vendorRegConfirmPasswordBox;
+        public WebElement vendorRegButton;
